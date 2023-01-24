@@ -1,0 +1,17 @@
+[
+{
+  "directory": "C:/Users/andre/OneDrive/Escritorio/Jenkins-World-v2/build",
+  "command": "C:\\TDM-GCC-64\\bin\\x86_64-w64-mingw32-g++.exe   -g -o CMakeFiles\\jenkinsWorld-v2.dir\\main.cpp.obj -c C:\\Users\\andre\\OneDrive\\Escritorio\\Jenkins-World-v2\\main.cpp",
+  "file": "C:/Users/andre/OneDrive/Escritorio/Jenkins-World-v2/main.cpp"
+},
+{
+  "directory": "C:/Users/andre/OneDrive/Escritorio/Jenkins-World-v2/build",
+  "command": "C:\\TDM-GCC-64\\bin\\x86_64-w64-mingw32-g++.exe   -g -o CMakeFiles\\jenkinsWorld-v2.dir\\Personaje.cpp.obj -c C:\\Users\\andre\\OneDrive\\Escritorio\\Jenkins-World-v2\\Personaje.cpp",
+  "file": "C:/Users/andre/OneDrive/Escritorio/Jenkins-World-v2/Personaje.cpp"
+},
+{
+  "directory": "C:/Users/andre/OneDrive/Escritorio/Jenkins-World-v2/build",
+  "command": "C:\\TDM-GCC-64\\bin\\x86_64-w64-mingw32-g++.exe   -g -o CMakeFiles\\jenkinsWorld-v2.dir\\Ejercito.cpp.obj -c C:\\Users\\andre\\OneDrive\\Escritorio\\Jenkins-World-v2\\Ejercito.cpp",
+  "file": "C:/Users/andre/OneDrive/Escritorio/Jenkins-World-v2/Ejercito.cpp"
+}
+]

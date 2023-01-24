@@ -1,0 +1,3 @@
+C:\cmake-3.21.1-windows-x86_64\bin\cmake.exe -E rm -f CMakeFiles\jenkinsWorld-v2.dir/objects.a
+C:\TDM-GCC-64\bin\ar.exe qc CMakeFiles\jenkinsWorld-v2.dir/objects.a @CMakeFiles\jenkinsWorld-v2.dir\objects1.rsp
+C:\TDM-GCC-64\bin\x86_64-w64-mingw32-g++.exe -g -Wl,--whole-archive CMakeFiles\jenkinsWorld-v2.dir/objects.a -Wl,--no-whole-archive -o jenkinsWorld-v2.exe -Wl,--out-implib,libjenkinsWorld-v2.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\jenkinsWorld-v2.dir\linklibs.rsp

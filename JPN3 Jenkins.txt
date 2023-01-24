@@ -1,0 +1,41 @@
+JPN 3 - Mundo Jenkins
+
+Enunciado del problema
+
+El mundo virtual de Jenkins viven 4 tipos de personajes: 0: Caballero, 1: Draconarius, 2: Arquero, 3: Mago. Cada uno cuenta con una cantidad de vida (50) y maná (50). Todos los seres atacan al ver a otro, el daño resta puntos de vida y maná, en el cual los dos se hacen daño por el combate. Si un personaje se queda sin maná, no podrá atacar. Si se queda sin vida, muere.
+
+Cada personaje produce distintas cantidades de daño:
+
+El Caballero quita 50 puntos de vida y 50 de maná (si su maná es mayor a 30 puntos, de lo contario no ataca). Si un caballero se encuentra con otro caballero, no se hacen daño.
+El Draconarius quita 20 puntos de vida y 30 de maná si ataca a un caballero, sino quita 15 puntos de vida y 20 de maná.
+El Arquero quita 30 puntos de vida y 10 de maná mientras él tenga una vida menor de 25 puntos, sino no causa ningún daño.
+El Mago quita 50 de maná, si su maná está entre 35 y 50, sino no causa ningún daño.
+Con estas especificaciones genere las clases que considere necesarias y cree una clase personaje para representar el mundo, este se dividirá en 2 ejércitos. El primer ejercito corresponde al jugador y el segundo ejercito corresponde al enemigo. Cada ejercito estará conformado por 4 tipos de personaje (1 caballero, 1 draconarius, 1 arquero y 1 mago). Todos los personajes tienen un método atacar() que recibe por referencia otro personaje al que le quitará puntos de vida y maná.
+
+Recuerde hacer uso de herencia (:) y polimorfismo
+
+REQUISITOS
+Suponga que el juego inicia y se generan los siguiente ataques:
+El caballero del ejercito 1 ataca a un draconarius del ejercito 2
+El caballero del ejercito 1 ataca a un arquero del ejercito 2
+El caballero del ejercito 2 ataca a un draconarius del ejercito 1
+El caballero del ejercito 1 ataca a un mago del ejercito 2.
+Por cada ataque se deberá mostrar en pantalla: el personaje que atacó con su respectiva posición y el ejercito al que pertenece. También el personaje que fue acatado con su respectiva posición y el ejercito al que pertenece (ver salidas).
+Luego se debe imprimir para cada ejercito la cantidad de jugadores que quedaron vivos después de los ataques.
+Finalmente se debe mostrar en pantalla el ejercito ganador.
+Nota: Todas las salidas en pantalla deben finalizar con "endl".
+
+Salidas
+El personaje 0 del ejercito 1 ha atacado al personaje 1 del ejercito 2
+
+El personaje 0 del ejercito 1 ha atacado al personaje 2 del ejercito 2
+
+El personaje 0 del ejercito 2 ha atacado al personaje 1 del ejercito 1
+
+El personaje 0 del ejercito 1 ha atacado al personaje 3 del ejercito 2
+
+Ejercito 1 ha quedado con: 3 de 4
+
+Ejercito 2 ha quedado con: 1 de 4
+
+Ejercito 1 ganador
